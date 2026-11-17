@@ -2,7 +2,7 @@
   "id": "./",
   "name": "まさてゃんカメコ",
   "short_name": "カメコ",
-  "description": "アイドル写真の整理・閲覧アプリ",
+  "description": "推しの写真をまとめて保存・閲覧できるアイドル写真アーカイブ",
   "lang": "ja",
   "dir": "ltr",
   "start_url": "./",
@@ -10,8 +10,8 @@
   "display": "standalone",
   "display_override": ["standalone", "minimal-ui"],
   "orientation": "portrait",
-  "background_color": "#fafafa",
-  "theme_color": "#18181b",
+  "background_color": "#FFF8FB",
+  "theme_color": "#FF3B8B",
   "icons": [
     {
       "src": "icons/icon-192.png",
@@ -26,10 +26,24 @@
       "purpose": "any"
     },
     {
+      "src": "icons/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
       "src": "icons/maskable-512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "ギャラリー",
+      "short_name": "ギャラリー",
+      "url": "./?tab=gallery",
+      "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }]
     }
   ]
 }

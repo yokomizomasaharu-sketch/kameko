@@ -2,7 +2,7 @@
  * まさてゃんカメコ service worker
  * GitHub Pages のサブパス(/kameko/)でも動くよう、すべて sw.js 自身のURLから基準を作る。
  */
-const CACHE = 'kameko-cache-v2';
+const CACHE = 'kameko-cache-v3';
 const BASE = new URL('./', self.location.href);
 const SHELL = [
   BASE.href,
@@ -10,6 +10,7 @@ const SHELL = [
   `${BASE.href}icons/icon-192.png`,
   `${BASE.href}icons/icon-512.png`,
   `${BASE.href}icons/apple-touch-icon.png`,
+  `${BASE.href}icons/maskable-512.png`,
 ];
 
 self.addEventListener('install', (event) => {
