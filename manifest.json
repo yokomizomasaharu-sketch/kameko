@@ -8,10 +8,13 @@
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
-  "display_override": ["standalone", "minimal-ui"],
+  "display_override": [
+    "standalone",
+    "minimal-ui"
+  ],
   "orientation": "portrait",
-  "background_color": "#FFF8FB",
-  "theme_color": "#FF3B8B",
+  "background_color": "#FDF6F8",
+  "theme_color": "#FDF6F8",
   "icons": [
     {
       "src": "icons/icon-192.png",
@@ -43,7 +46,12 @@
       "name": "ギャラリー",
       "short_name": "ギャラリー",
       "url": "./?tab=gallery",
-      "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }]
+      "icons": [
+        {
+          "src": "icons/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
     }
   ]
 }

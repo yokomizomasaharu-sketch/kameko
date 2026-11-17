@@ -2,7 +2,7 @@
  * まさてゃんカメコ service worker
  * GitHub Pages のサブパス(/kameko/)でも動くよう、すべて sw.js 自身のURLから基準を作る。
  */
-const CACHE = 'kameko-cache-v3';
+const CACHE = 'kameko-cache-v4';
 const BASE = new URL('./', self.location.href);
 const SHELL = [
   BASE.href,
